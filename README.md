@@ -1,51 +1,166 @@
-<!-- Header -->
-<div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:00ff41,100:0d1117&height=200&section=header&text=Sukansh%20Gupta&fontSize=50&fontColor=00ff41&animation=fadeIn&fontAlignY=38&desc=Cybersecurity%20Analyst%20%7C%20Penetration%20Tester%20%7C%20SOC%20Operations&descAlignY=60&descColor=ffffff"/>
-</div>
+<h1 align="center">Hi, I'm Sukansh Gupta 👋</h1>
+<h3 align="center">Cybersecurity Enthusiast | Penetration Tester | SOC Analyst in Training</h3>
 
-<!-- Typing SVG -->
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&width=700&lines=Cybersecurity+Analyst+%7C+Bhopal%2C+India+%F0%9F%87%AE%F0%9F%87%B3;Penetration+Testing+%7C+VAPT+%7C+Web+Security;SOC+Operations+%7C+SIEM+%7C+Incident+Response;AI+Security+%7C+IoT+Security+%7C+Digital+Forensics;Open+to+Work+%E2%80%94+SOC+Analyst+%7C+Junior+Pentester+%F0%9F%9A%80" alt="Typing SVG" />
-</div>
-
-<br/>
-
-<!-- Badges -->
-<div align="center">
-  <a href="https://linkedin.com/in/sukanshh">
-    <img src="https://img.shields.io/badge/LinkedIn-Sukansh%20Gupta-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
-  </a>
-  <a href="mailto:sukansh.07@gmail.com">
-    <img src="https://img.shields.io/badge/Email-sukansh.07@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
-  </a>
-  <a href="https://tryhackme.com/p/YOUR-THM-USERNAME">
-    <img src="https://img.shields.io/badge/TryHackMe-Profile-212C42?style=for-the-badge&logo=tryhackme&logoColor=white"/>
-  </a>
-  <img src="https://komarev.com/ghpvc/?username=sukanshh&style=for-the-badge&color=00ff41&label=PROFILE+VIEWS"/>
-</div>
-
-<br/>
+<p align="center">
+  <a href="https://www.linkedin.com/in/sukanshh"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+  <a href="mailto:sukansh.07@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+  <img src="https://img.shields.io/badge/Location-Bhopal%2C%20India-2E6DA4?style=for-the-badge"/>
+  <img src="https://tryhackme-badges.s3.amazonaws.com/sukanshgupta.png" alt="TryHackMe" height="28"/>
+</p>
 
 ---
 
-## 🖥️ `whoami`
+## 🧑‍💻 About Me
 
-```bash
-┌──(sukansh㉿security-analyst)-[~/portfolio]
-└─$ cat about_me.txt
+I'm a cybersecurity professional currently completing a **14-month Cyber Security Expert Program** at Cybrom Technologies (training + internship), with a focus on offensive and defensive security.
 
-Name        : Sukansh Gupta
-Location    : Bhopal, India 🇮🇳
-Role        : Cybersecurity Analyst | Aspiring SOC Analyst & Pentester
-Training    : Cyber Security Expert Program — Cybrom Technologies
-              (12-month training + 2-month internship) [Ongoing]
-Education   : B.Tech Computer Science — ITM University, Gwalior
+- 🔭 Currently working on: **building a full cybersecurity project portfolio** covering pentesting, SOC operations, forensics, and threat intelligence
+- 🌱 Learning: **MITRE ATT&CK**, cloud security (AWS), and bug bounty workflows
+- 🎯 Target roles: **SOC Analyst** | **Penetration Tester** | **Security Engineer**
+- 🏆 Platforms: Active on **TryHackMe** and **PortSwigger Web Security Academy**
 
-Focus Areas : → Penetration Testing & VAPT
-              → SOC Operations & SIEM (Splunk/Wazuh)
-              → Digital Forensics & Incident Response
-              → Web Application Security (OWASP Top 10)
-              → AI/LLM Security & IoT Security (MQTT)
+---
 
-Status      : 🟢 Open to Work — SOC Analyst | Junior Pentester
-Mission     : "Think like an attacker. Defend like a professional."
+## 🛡️ Technical Skills
+
+| Domain | Skills |
+|--------|--------|
+| **Cybersecurity** | VAPT, OWASP Top 10, Network Security, Incident Response, SOC Operations, SIEM |
+| **Tools** | Nmap, Wireshark, Burp Suite, Nessus, Metasploit, Splunk, Wazuh, GoPhish, Volatility, Autopsy |
+| **Programming** | Python, Bash, SQL, JavaScript |
+| **Systems** | Kali Linux, Ubuntu, Windows Server |
+| **Concepts** | HTTP/HTTPS, Cryptography, OSINT, Active Directory |
+| **Emerging** | AI Security (Prompt Injection), IoT Security (MQTT), Cloud Security (AWS) |
+
+---
+
+## 🚀 Projects
+
+### 1. 🔴 Comprehensive Cyber Attack Simulation
+> Full kill chain simulation in an isolated lab environment
+- Set up attacker (Kali) and victim (Metasploitable) VMs in VirtualBox
+- Executed: Nmap recon → Metasploit exploitation (MS17-010 EternalBlue) → privilege escalation → data exfiltration
+- Switched to defender role: patched vulnerabilities, applied firewall rules, re-scanned to verify remediation
+- **Tools:** Kali Linux, Metasploit, Nmap, Netcat, VirtualBox
+
+---
+
+### 2. 🟠 Advanced Phishing Attack & Defense
+> End-to-end phishing simulation with IOC documentation
+- Designed a phishing campaign using GoPhish targeting a controlled test email
+- Cloned a fake login portal with the Social Engineering Toolkit (SET)
+- Documented IOCs (IPs, domains, headers) and drafted a defense playbook with SPF/DKIM/DMARC
+- **Tools:** GoPhish, SET, Kali Linux, Thunderbird
+
+---
+
+### 3. 🔵 Virtual SOC Environment
+> Simulated Security Operations Center with real-time alerting
+- Deployed Splunk (SIEM) + Wazuh (endpoint monitoring) on Ubuntu Server VMs
+- Built dashboards for failed logins, privilege escalation, and network anomalies
+- Wrote 3+ correlation rules; simulated and contained an SSH brute-force attack end-to-end
+- **Tools:** Splunk Free, Wazuh, Ubuntu Server, Sysmon
+
+---
+
+### 4. 🟣 Memory Forensics Investigation
+> Volatile evidence recovery from infected RAM dumps
+- Analyzed real-world infected memory dumps from MemLabs / BlueTeamLabs Online
+- Used Volatility 3 plugins: `pslist`, `malfind`, `netstat`, `dlllist` to identify malicious processes and C2 connections
+- Built attack timelines and wrote formal Forensic Investigation Reports
+- **Tools:** Volatility 3, LiME, FTK Imager, Kali Linux
+
+---
+
+### 5. 🟡 Network Packet Analysis
+> Attack detection through raw traffic inspection
+- Analyzed malicious PCAPs to identify port scans, DNS tunneling, and C2 beaconing patterns
+- Extracted credentials and files using NetworkMiner; built Wireshark display filters for threat isolation
+- **Tools:** Wireshark, tcpdump, NetworkMiner
+
+---
+
+### 6. 🟤 Honeypot Deployment & Threat Intelligence
+> Real-time attacker behavior observation
+- Deployed Cowrie SSH honeypot; collected attacker IPs, credentials, commands, and dropped malware over 7 days
+- Mapped attacker TTPs to MITRE ATT&CK framework; cross-referenced IOCs with AbuseIPDB and VirusTotal
+- **Tools:** Cowrie, T-Pot, Ubuntu Server, Elastic/Kibana
+
+---
+
+### 7. ⚪ Digital Forensics — Data Recovery
+> Deleted evidence recovery with chain-of-custody integrity
+- Created forensic disk images using FTK Imager; recovered deleted files, emails, and artifacts using Autopsy + PhotoRec
+- Verified evidential integrity with MD5/SHA256 hash validation before and after
+- **Tools:** Autopsy, FTK Imager, TestDisk/PhotoRec
+
+---
+
+### 8. 🔴 Incident Investigation — Splunk BOT Dataset
+> Log-based multi-stage attack reconstruction
+- Analyzed the Splunk Boss of the SOC (BOTSv1) dataset using SPL queries
+- Reconstructed full kill chain from initial web exploitation to data exfiltration
+- Mapped each stage to MITRE ATT&CK technique IDs (T1190, T1059, T1041, etc.)
+- **Tools:** Splunk Free, BOTSv1 Dataset, MITRE ATT&CK Navigator
+
+---
+
+### 9. 🤖 AI Security Testing
+> Prompt injection vulnerabilities in Large Language Models
+- Performed prompt injection attacks against LLM-based applications
+- Documented attack vectors, model behavior under adversarial input, and proposed mitigations
+- **Tools:** Python, LLM APIs
+
+---
+
+### 10. 💀 WannaCry Ransomware Simulation
+> Controlled ransomware execution and analysis
+- Reproduced WannaCry execution in an isolated lab; analyzed encryption behavior and lateral movement
+- Documented detection signatures and recovery procedures
+- **Tools:** Kali Linux, VirtualBox, Wireshark
+
+---
+
+## 📜 Certifications & Training
+
+| Certification | Issuer | Year |
+|---|---|---|
+| Cyber Security Course | TuteDude | 2026 |
+| Cyber Security Expert Program (Training + Internship) | Cybrom Technologies | 2025–Present |
+
+> 🎯 **Next targets:** CEH (Certified Ethical Hacker) · CompTIA Security+
+
+---
+
+## 🎓 Education
+
+**Bachelor of Technology — Computer Science**  
+ITM University, Gwalior, India
+
+---
+
+## 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=sukanshgupta&show_icons=true&theme=tokyonight&hide_border=true" height="160"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sukanshgupta&layout=compact&theme=tokyonight&hide_border=true" height="160"/>
+</p>
+
+---
+
+## 🔗 Connect With Me
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/sukanshh">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin"/>
+  </a>
+  <a href="mailto:sukansh.07@gmail.com">
+    <img src="https://img.shields.io/badge/Email-sukansh.07@gmail.com-D14836?style=for-the-badge&logo=gmail"/>
+  </a>
+</p>
+
+---
+
+<p align="center">
+  <i>"Security is not a product, but a process." — Bruce Schneier</i>
+</p>
