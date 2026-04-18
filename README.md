@@ -36,8 +36,8 @@
 ![Sukansh's GitHub stats](https://github-readme-stats.vercel.app/api?username=Sukansh7&show_icons=true&theme=dark&hide_border=true)
 
 ## 🔗 Connect With Me
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR-LINKEDIN)
-[![Medium](https://img.shields.io/badge/Medium-12100E?style=flat&logo=medium&logoColor=white)](https://medium.com/@YOUR-MEDIUM)
+[![LinkedIn]([https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR-LINKEDIN](https://www.linkedin.com/in/sukanshh/))
+[![Medium]([https://img.shields.io/badge/Medium-12100E?style=flat&logo=medium&logoColor=white)](https://medium.com/@YOUR-MEDIUM](https://medium.com/@sukansh.07))
 
 ---
 > ⚡ *"Attackers only need one way in. Defenders need to close them all."*
