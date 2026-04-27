@@ -136,15 +136,6 @@ Mission  : Break things legally. Document everything. Fix nothing (that's the de
 
 ---
 
-## 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=sukanshgupta&show_icons=true&theme=dark&hide_border=true&title_color=FF0000&icon_color=FF4444" height="160"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=sukanshgupta&layout=compact&theme=dark&hide_border=true&title_color=FF0000" height="160"/>
-</p>
-
----
-
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=sukanshgupta&color=red&style=flat-square" alt="Profile views"/>
 </p>
