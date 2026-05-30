@@ -1,145 +1,174 @@
-<div align="center">
+# Hi, I'm Sukansh Gupta 👋
 
-<h1>Sukansh Gupta</h1>
-<h3>🔴 Penetration Tester · VAPT Analyst · Red Team Operator</h3>
+### Cybersecurity Student | Aspiring Penetration Tester | Web, API & Mobile Security
 
-<p>
-  <a href="https://www.linkedin.com/in/sukanshh"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-  <a href="mailto:sukansh.07@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-  <img src="https://img.shields.io/badge/TryHackMe-Active-red?style=for-the-badge&logo=tryhackme&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Focus-Red%20Team%20%7C%20VAPT-black?style=for-the-badge"/>
-</p>
+I am a Computer Science student at ITM University (Class of 2027) with a strong interest in offensive security, vulnerability assessment, and secure application development.
 
-</div>
+My current focus areas are:
 
----
+* Web Application Security
+* API Security Testing
+* Mobile Application Security
+* Vulnerability Assessment & Penetration Testing (VAPT)
+* AI / LLM Security Research
 
-## whoami
-
-```bash
-$ cat /etc/sukansh/profile.txt
-
-Name     : Sukansh Gupta
-Role     : Penetration Tester | VAPT Analyst | Red Team Operator
-Location : Bhopal, India
-Training : Cyber Security Expert Program — Cybrom Technologies (Ongoing)
-Focus    : Offensive Security | Web App Pentesting | Kill-Chain Simulation
-Mission  : Break things legally. Document everything. Fix nothing (that's the dev's job).
-```
+Currently pursuing the **eJPT (Junior Penetration Tester)** certification while building practical cybersecurity projects and documenting my findings through technical writeups.
 
 ---
 
-## 🛠️ Arsenal
+## 🔐 Security Projects
 
-<p>
-<img src="https://img.shields.io/badge/Kali_Linux-557C94?style=flat-square&logo=kalilinux&logoColor=white"/>
-<img src="https://img.shields.io/badge/Metasploit-2596CD?style=flat-square&logo=metasploit&logoColor=white"/>
-<img src="https://img.shields.io/badge/Burp_Suite-FF6633?style=flat-square&logo=burpsuite&logoColor=white"/>
-<img src="https://img.shields.io/badge/Nmap-blue?style=flat-square"/>
-<img src="https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white"/>
-<img src="https://img.shields.io/badge/Splunk-000000?style=flat-square&logo=splunk&logoColor=white"/>
-<img src="https://img.shields.io/badge/Nessus-00B4D8?style=flat-square"/>
-<img src="https://img.shields.io/badge/SQLmap-darkred?style=flat-square"/>
-<img src="https://img.shields.io/badge/GoPhish-red?style=flat-square"/>
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
-<img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white"/>
-</p>
+### API Penetration Testing Lab
 
-| Domain | Tools & Skills |
-|--------|----------------|
-| **Exploitation** | Metasploit, Searchsploit, manual CVE exploitation, SQLmap |
-| **Web App VAPT** | Burp Suite, OWASP ZAP, Nikto, Gobuster, ffuf, manual payloads |
-| **Recon & OSINT** | Nmap, Nessus, theHarvester, Shodan, Recon-ng |
-| **Post-Exploitation** | Meterpreter, Netcat, privilege escalation scripts |
-| **Social Engineering** | GoPhish, SET (Social Engineering Toolkit) |
-| **Scripting** | Python, Bash, SQL |
-| **Frameworks** | MITRE ATT&CK, OWASP Testing Guide, PTES |
+Security assessment against OWASP crAPI covering:
+
+* BOLA / IDOR
+* Mass Assignment
+* JWT Security Issues
+* Privilege Escalation
+
+🔗 Repository:
+https://github.com/Sukansh7/API-pentest-lab
 
 ---
 
-## 🔴 Red Team Projects
+### AI / LLM Security Research Lab
 
-### 01 — Full Kill-Chain Internal Network Pentest
-> **Tools:** Kali Linux · Metasploit · Nmap · Netcat · VirtualBox
+Built and tested a vulnerable AI chatbot environment to explore:
 
-- Performed host discovery with Nmap; identified MS17-010 (EternalBlue) on unpatched Windows target
-- Gained SYSTEM-level shell via Metasploit; executed post-exploitation: lateral movement + data exfiltration
-- Switched to defender role: patched, hardened, re-scanned — reduced attack surface by 80%+
-- Delivered formal pentest report with CVSS scores, attack narrative & remediation roadmap
+* Prompt Injection
+* System Prompt Leakage
+* Indirect Injection
+* Secure Mitigations
 
----
-
-### 02 — Web Application VAPT — OWASP Top 10
-> **Tools:** Burp Suite · SQLmap · OWASP ZAP · PortSwigger Labs
-
-- Manually exploited: SQL Injection (blind & error-based), XSS, CSRF, IDOR, Auth Bypass, BAC
-- Crafted custom WAF-bypass payloads using encoding and case manipulation in Burp Repeater
-- Documented findings with PoC screenshots, CVSS severity ratings, and developer-ready remediation
+🔗 Repository:
+https://github.com/Sukansh7/llm-security-lab
 
 ---
 
-### 03 — Phishing & Social Engineering Red Team
-> **Tools:** GoPhish · SET · Kali Linux
+### DVWA & OWASP Juice Shop Assessment
 
-- Designed spear-phishing campaign → cloned login portal → captured test credentials
-- Documented IOCs mapped to MITRE ATT&CK T1566 (Phishing)
-- Recommended SPF/DKIM/DMARC controls and user awareness training program
+Web application security testing covering:
 
----
+* SQL Injection
+* XSS
+* Authentication Issues
+* Access Control Weaknesses
 
-### 04 — Vulnerability Assessment (Black Box & Grey Box)
-> **Tools:** Nmap · Nessus · Searchsploit · Metasploitable
-
-- Identified 20+ vulnerabilities across FTP, SSH, HTTP, SMB; manually validated to eliminate false positives
-- Cross-referenced CVE database and Exploit-DB; identified 3 critical RCE vectors
-- Delivered VA report with executive summary, findings table, and patch priority matrix
+🔗 Repository:
+https://github.com/Sukansh7/DVWA_and_Juice_Shop_Full_Assessment
 
 ---
 
-### 05 — Honeypot Deployment & Threat Intelligence
-> **Tools:** Cowrie · T-Pot · Ubuntu Server · MITRE ATT&CK
+### Mobile Application Security Assessment
 
-- Deployed Cowrie SSH honeypot; collected 7 days of live attacker data
-- Mapped TTPs to MITRE ATT&CK (T1110, T1059, T1041)
-- Published threat intel report with 15+ actionable IOCs
+Android security testing using:
 
----
+* JADX
+* apktool
+* Burp Suite
+* ADB
 
-### 06 — AI / LLM Security Research
-> **Tools:** Python · LLM APIs · Burp Suite
-
-- Performed prompt injection on LLM-integrated applications; identified system prompt leakage and privilege escalation via crafted inputs
-- Documented attack surface and proposed mitigations: input sanitization, output filtering, sandboxed execution
+🔗 Repository:
+https://github.com/Sukansh7/moblie-vapt
 
 ---
 
-## 🏆 Platforms & Activity
+### WannaCry Simulation & Analysis
 
-| Platform | Activity |
-|----------|----------|
-| 🟥 TryHackMe | Web exploitation, network pentesting, privilege escalation, AD labs, CTFs |
-| 🟧 PortSwigger | All OWASP Top 10 labs — blind SQLi, SSRF, XXE, OAuth, manual payloads |
-| 📖 Exploit-DB | Regular CVE analysis and PoC review |
-| 🐛 Bug Bounty | Asset discovery, subdomain enumeration (Amass, subfinder), endpoint fuzzing |
+Malware simulation and ransomware behavior analysis in a controlled lab environment.
+
+🔗 Repository:
+https://github.com/Sukansh7/WannaCry_Simulation_and_Analysis
 
 ---
 
-## 📜 Certs & Training
+## 🛠️ Technical Skills
 
-| Credential | Issuer | Status |
-|-----------|--------|--------|
-| Cyber Security Course | TuteDude | ✅ 2026 |
-| Cyber Security Expert Program | Cybrom Technologies | 🔄 Ongoing |
-| eJPT — Junior Penetration Tester | INE Security | 🎯 Pursuing |
-| CEH — Certified Ethical Hacker | EC-Council | 🎯 Roadmap |
-| OSCP — Offensive Security | OffSec | 🎯 Roadmap |
+### Security
+
+* Web Application Security
+* API Security Testing
+* Mobile Application Security
+* Vulnerability Assessment
+* OWASP Top 10
+* OWASP API Security Top 10
+
+### Tools
+
+* Burp Suite
+* Nmap
+* Nessus
+* Metasploit
+* Wireshark
+* SQLMap
+* Gobuster
+* ffuf
+* Postman
+
+### Programming
+
+* Python
+* Bash
+* SQL
+* Flask
+
+### Operating Systems
+
+* Linux
+* Windows
 
 ---
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=sukanshgupta&color=red&style=flat-square" alt="Profile views"/>
-</p>
+## 📚 Learning Platforms
 
-<p align="center">
-  <i>"The quieter you become, the more you are able to hear." — Kali Linux</i>
-</p>
+### PortSwigger Web Security Academy
+
+Hands-on practice in:
+
+* SQL Injection
+* XSS
+* Authentication
+* Access Control
+* Server-Side Vulnerabilities
+
+### TryHackMe
+
+* Web Exploitation
+* Privilege Escalation
+* Enumeration
+* Security Labs
+
+---
+
+## ✍️ Technical Writing
+
+Medium:
+https://medium.com/@sukansh.07
+
+I publish cybersecurity writeups, project documentation, and security research notes.
+
+---
+
+## 🌐 Connect With Me
+
+Portfolio:
+https://sukansh.netlify.app
+
+LinkedIn:
+https://linkedin.com/in/sukanshh
+
+GitHub:
+https://github.com/Sukansh7
+
+Medium:
+https://medium.com/@sukansh.07
+
+Email:
+[sukansh.07@gmail.com](mailto:sukansh.07@gmail.com)
+
+---
+
+### Current Goal
+
+Build strong practical expertise in Web & API Security, complete eJPT, contribute to security research, and secure a VAPT Internship / Junior Penetration Testing opportunity.
